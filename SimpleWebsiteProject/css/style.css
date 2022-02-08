@@ -20,7 +20,7 @@ body {
 
 /* rule of specificity */
 #main-header {
-    font-family: 'Righteous',sans-serif
+    font-family: 'Righteous',sans-serif;
     font-weight: 400;
     border-bottom: 2px solid black;
     padding-bottom: 10px;
