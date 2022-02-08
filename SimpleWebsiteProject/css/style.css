@@ -74,6 +74,10 @@ article {
     box-shadow: 5px 5px 20px -1px rgba(0, 0, 0, 0.3);
 }
 
+article:active {
+    opacity: .6;
+}
+
 /* to make height of all images equal, replace img src with div background image */
 article img {
     max-width:100%
@@ -100,6 +104,10 @@ p {
 a {
     text-decoration: underline;
     text-decoration-style: line
+}
+
+a:hover, a.more-link:hover{
+    color:#2EE59D;
 }
 
 #contact-form {
@@ -257,4 +265,19 @@ a {
 
 footer {
     text-align: center;
+}
+
+.my-input {
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px
+}
+
+.my-input:focus {
+    background:goldenrod;
+    color: black;
+    /* add this to remove default bold borders */
+    outline: none;
+    border: 1px solid black
 }
