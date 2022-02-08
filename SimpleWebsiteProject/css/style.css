@@ -1,7 +1,7 @@
 /* import rule */
 /* Roboto Condensed fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-/* Righteous fonts*/
+/* Righteous fonts */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
@@ -20,7 +20,7 @@ body {
 
 /* rule of specificity */
 #main-header {
-    font-family: 'Righteous',sans-serif;
+    font-family: 'Righteous'
     font-weight: 400;
     border-bottom: 2px solid black;
     padding-bottom: 10px;
