@@ -1,7 +1,11 @@
 /* import rule */
-/* Roboto Condensed fonts */
+/* Roboto Condensed font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+<<<<<<< HEAD
 /* Righteous fonts */
+=======
+/* Righteous font*/
+>>>>>>> 7c57dc0ab517440240f6e3da295ea789c783891e
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
